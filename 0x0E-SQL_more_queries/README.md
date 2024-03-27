@@ -6,4 +6,7 @@ Creates table "force name":3-force name.sql
 Creates table "is not null": 4-never empty.sql
 Creates table "unique id": 5-unique if.sql
 Creates database "hbtn 0d usa" and table "states": 6-states.sql
-Creates database "hbtn 0d usa" and table "cities"
+Creates database "hbtn 0d usa" and table "cities": 7-cities.sql
+List all the cities of california that could be found in the database "hbtn 0d usa":8-cities of california subquery.sql
+Lists all the cities in "hbtn 0d usa" database: 9-cities by state join.sql
+

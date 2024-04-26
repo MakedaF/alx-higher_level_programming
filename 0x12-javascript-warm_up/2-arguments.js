@@ -5,5 +5,5 @@ if (NumOfArgs === 0) {
 } else if (NumOfArgs === 1) {
   console.log('Argument found');
 } else {
-  console.log('Argument found');
+  console.log('Arguments found');
 }

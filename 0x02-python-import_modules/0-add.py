@@ -3,8 +3,9 @@
 Imports function add(a, b) from module add_0.py
 """
 
-
-from add_0 import add
-a = 1
-b = 2
-print(f"{a} + {b} = {add(a,b)}")
+if __name__ == "__main__":
+    from add_0 import add
+    a = 1
+    b = 2
+    sum01 = add(a, b)
+    print(f"{a} + {b} = {sum01}")

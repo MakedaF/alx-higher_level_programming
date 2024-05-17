@@ -4,7 +4,7 @@ Imports function add(a, b) from module add_0.py
 """
 
 if __name__ == "__main__":
-    from add_0 import add
+    import add_0 as sum01
     a = 1
     b = 2
-    print(f"{a} + {b} = {add(a, b)}")
+    print("{} + {} = {}".format(a, b, sum01.add(a, b)))
